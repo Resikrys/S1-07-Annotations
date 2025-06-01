@@ -2,11 +2,32 @@
 ## TASK 7: Annotations
 
 ### LEVEL 1 - EXERCISE 1
-Create a class called NoGenericMethods that stores three
-arguments of the same type, along with methods for storing
-and retrieving these objects and a constructor to
-initialize all three. Verify that the arguments can be
-placed in any position in the constructor call.
+Create an object hierarchy with three classes: Worker, 
+Online Worker and Face-to-face Worker.
+
+The Worker class has the attributes name, surname, 
+price/hour, and the method calcarSou() that receives the 
+number of hours worked as a parameter and multiplies it by 
+the price/hour. Child classes must override it, using 
+@Override.
+
+From the main() of the Main class, make the necessary 
+invocations to demonstrate the operation of the @Override 
+annotation.
+
+For face-to-face workers, the method to calculate their 
+salary will receive the number of hours worked per month 
+as a parameter. When calculating the salary, the number 
+of hours worked will be multiplied by the price/hour, 
+plus the value of a static attribute called benzino 
+that we will add to this class.
+
+For online workers, the method to calculate their salary 
+will receive the number of hours worked per month as a 
+parameter. When calculating the salary, the number of 
+hours worked will be multiplied by the price/hour and 
+the price of the flat rate Internet, which will be a 
+constant of the TreballadorOnline class.
 
 ### LEVEL 1 - EXERCISE 2
 
