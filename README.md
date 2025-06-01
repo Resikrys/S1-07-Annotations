@@ -30,8 +30,17 @@ the price of the flat rate Internet, which will be a
 constant of the TreballadorOnline class.
 
 ### LEVEL 1 - EXERCISE 2
+Add some obsolete (deprecated) methods to the child 
+classes, and use the corresponding annotation. 
+Invoke the obsolete methods from an external class, 
+suppressing the “warnings” for being obsolete using the 
+corresponding annotation.
 
 ### LEVEL 2 - EXERCISE 1
+Create a custom annotation that should allow serializing 
+a Java object into a JSON file. The annotation should 
+receive the directory where the resulting file will be 
+placed.
 
 ### TECHNOLOGIES
 | Package                    | Version | Description                |
